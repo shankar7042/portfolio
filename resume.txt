@@ -1,0 +1,106 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{inter}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{geometry}
+\geometry{a4paper, top=1.8cm, bottom=1in, left=1.2cm, right=1.2cm}
+\setcounter{secnumdepth}{0}
+\pdfgentounicode=1
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, left=0pt..1.5em}
+
+\usepackage[dvipsnames]{xcolor}
+\colorlet{icnclr}{gray}
+
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\color{Sepia}\large\fontseries{black}\selectfont\uppercase}{}{}{}
+\titleformat{\subsection}{\large\fontseries{semibold}\selectfont}{}{}{}
+\titleformat{\subsubsection}{\large\fontseries{medium}\selectfont}{}{}{}
+
+\usepackage{fontawesome5}
+\usepackage[bookmarks=false]{hyperref}
+\hypersetup{colorlinks=true, urlcolor=Sepia, pdftitle={Shankar Gupta Resume}}
+
+\begin{document}
+
+\begin{center}
+    {\fontsize{30}{30}\selectfont\interheavy SHANKAR} \\ \bigskip
+    \faEnvelope[regular] \href{mailto:shankar060499@gmail.com}{shankar060499@gmail.com} \quad
+    \faIcon{mobile-alt} \href{tel:+91-7042778720}{+91-7042778720} \quad
+    \faLinkedin \href{https://www.linkedin.com/in/shankar-gupta-29071713a}{shankar-gupta} \quad
+    \faGithub \href{https://github.com/shankar7042}{shankar7042}
+\end{center}
+\section{PROFESSIONAL SUMMARY}
+\begin{itemize}
+    \item \textbf{Senior Full-Stack Developer} with 6+ years of experience engineering scalable, high-performance web applications using \textbf{ReactJS, NextJS, Java, Spring Boot, Node.js}, and modern cloud technologies.
+    \item Demonstrated success in \textbf{Agile environments}, spearheading full-stack solutions across frontend, backend, and DevOps that improved performance, scalability, and reliability.
+    \item Proven ability to \textbf{lead teams}, mentor developers, and collaborate with cross-functional stakeholders to deliver measurable business outcomes.
+    \item Achieved significant \textbf{system optimizations}: reduced payload size by 40\%, increased frontend speed by 60\%, and cut backend response times by 45\%.
+\end{itemize}
+
+\section{TECHNICAL SKILLS}
+\begin{itemize}
+    \item \textbf{Frontend:} ReactJS, NextJS, JavaScript, TypeScript, Redux, Zustand, Tanstack Query, SWR, React Router, Angular, HTML, CSS, Tailwind CSS, Ag-Grid
+    \item \textbf{Backend:} Java, Spring Boot, REST APIs, GraphQL, Node.js, Express.js, Python
+    \item \textbf{Databases:} PostgreSQL, MongoDB, MySQL, Redis
+    \item \textbf{DevOps/Tools:} Git, GitHub, Docker, Kubernetes, AWS, GitHub Actions
+    \item \textbf{Testing:} Jest, Cypress, Postman
+    \item \textbf{Others:} Agile, Scrum, TDD, Figma, DSA
+\end{itemize}
+
+\section{PROFESSIONAL EXPERIENCE}
+
+\subsection{Wipro Ltd | Senior Software Engineer \hfill June 2026 – Present}
+\vspace{4mm}
+\begin{itemize}
+    \item Developing enterprise-grade full-stack applications using \textbf{Java, Spring Boot, ReactJS}, and modern web technologies.
+    \item Designing scalable frontend architectures and reusable UI components for high-performance applications.
+    \item Building and enhancing backend REST APIs and GraphQL API in microservices to support business-critical workflows.
+    \item Collaborating with product owners, QA teams, and stakeholders in Agile environments for timely feature delivery.
+    \item Contributing to application performance optimization, bug resolution, code reviews, and production support.
+\end{itemize}
+
+\subsection{Infosys Ltd | Full-Stack Developer \hfill September 2019 – April 2026}
+\vspace{4mm}
+\begin{itemize}
+    \item \textbf{Directed} a team of 4 developers, ensuring timely delivery of full-stack applications and reducing escalation incidents by \textbf{30\%}.
+    \item \textbf{Engineered} reusable UI components with ReactJS, NextJS, and Tailwind CSS, enhancing user experience and accelerating load times by \textbf{60\%}.
+    \item \textbf{Developed and scaled} Spring Boot microservices and GraphQL/REST APIs, lowering average response times by \textbf{45\%} and supporting thousands of daily requests.
+    \item \textbf{Optimized} application scalability with lazy loading, code splitting, and refactoring, reducing bundle size by \textbf{40\%}.
+    \item \textbf{Automated} CI/CD pipelines and integrated test frameworks (\textbf{Jest, Cypress}), cutting release cycle time by \textbf{25\%} and minimizing production defects.
+    \item \textbf{Partnered} with product owners, QA, and business stakeholders to design solutions that improved customer satisfaction scores by \textbf{15\%}.
+    \item \textbf{Mentored} junior developers, driving adoption of clean code practices and reducing code review defects by \textbf{20\%}.
+    \item \textbf{Owned} the complete feature lifecycle, from requirement analysis to architecture design, implementation, and post-deployment support.
+    \item \textbf{Refactored} legacy components, decreasing maintenance effort and enabling faster enhancements.
+    \item \textbf{Delivered} internal tools and client-facing applications using \textbf{ReactJS}, JavaScript, and Java microservices
+    \item \textbf{Resolved} bugs and performance bottlenecks, reducing incident reports by \textbf{25\%}.
+    \item \textbf{Collaborated} in Agile teams, participating in sprints and retrospectives to consistently meet sprint commitments.
+\end{itemize}
+
+\section{EDUCATION}
+\subsection{Keshav Mahavidyalaya, Delhi University \hfill B.Sc. (Computer Science) – July 2019}
+
+\vspace{4mm}
+\section{HONORS \& AWARDS}
+\begin{itemize}
+    \item Recognized for delivering Walmart project solutions ahead of schedule and exceeding benchmarks.
+    \item Commended for driving front-end architecture optimization and problem-solving excellence.
+\end{itemize}
+
+\section{CERTIFICATIONS}
+\begin{itemize}
+    \item Infosys Certified React Professional
+    \item Infosys Certified Java Programmer
+    \item Infosys Certified NodeJS Professional
+    \item Infosys Certified JavaScript Programmer
+    \item Infosys Certified Python Programmer
+    \item Infosys Certified Spring Boot Developer
+\end{itemize}
+
+\end{document}

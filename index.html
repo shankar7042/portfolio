@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shankar Gupta · Senior Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Senior Full-Stack Developer with 6+ years of experience building scalable, high-performance web applications with ReactJS, Next.js, Java, Spring Boot and Node.js."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    />
+    <script>
+      ;(function () {
+        try {
+          var t = localStorage.getItem('theme')
+          if (t !== 'light' && t !== 'dark' && t !== 'system') t = 'system'
+          var m = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var d = t === 'dark' || (t === 'system' && m)
+          var c = document.documentElement.classList
+          d ? c.add('dark') : c.remove('dark')
+          document.documentElement.style.colorScheme = d ? 'dark' : 'light'
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
